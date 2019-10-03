@@ -9,7 +9,7 @@ def load_library(file_path)
     get_meaning = japanese_emoticon
 
 
-     
+     #should I just use .include
     english_emoticon = emoticon[key][0]
     get_emoticons = english_emoticon
     binding.pry
