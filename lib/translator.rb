@@ -22,6 +22,7 @@ def get_japanese_emoticon(file_path, emoticon)
   if !japanese_version
     return "Sorry this doesn't exist"
   end
+  japanese_version
   #binding.pry
 end
 
