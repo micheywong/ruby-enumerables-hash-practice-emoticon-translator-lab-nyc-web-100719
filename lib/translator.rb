@@ -20,7 +20,8 @@ def get_japanese_emoticon(file_path, emoticon)
   hash = load_library(file_path)
   japanese_version = hash[:get_emoticon][emoticon]
   if !japanese_version
-    return "Sorry this doesn't exist"
+    sorry_message = "Sorry, that emoticon was not found"
+    return sorry_message
   end
   japanese_version
   #binding.pry
