@@ -4,12 +4,12 @@ require 'yaml'
 def load_library(file_path)
   emoticons = YAML.load_file(file_path)
   new_hash = { }
+  new_hash[:get_meaning] = { }
+  new_hash[:get_emoticons] = { }
   emoticons.each do |key, value|
     japanese_emoticon = emoticons[key][1]
     get_meaning = japanese_emoticon
 
-
-     #should I just use .include
     english_emoticon = emoticons[key][0]
     get_emoticons = english_emoticon
     binding.pry
