@@ -19,7 +19,7 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   load_library(file_path)
   #returns japanese equivalent of english grinning
-  japanese_emoticon= emoticon[key][1]
+  emoticon[key][1]
   binding.pry
   
 end
