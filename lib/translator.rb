@@ -10,8 +10,8 @@ def load_library(file_path)
 
 
      #should I just use .include
-    english_emoticon = emoticon[key][0]
-    get_emoticons = english_emoticon
+    #english_emoticon = emoticon[key][0]
+    #get_emoticons = english_emoticon
     binding.pry
     
     #emoticons.each do |english_emoticon,japanese_emoticon|
