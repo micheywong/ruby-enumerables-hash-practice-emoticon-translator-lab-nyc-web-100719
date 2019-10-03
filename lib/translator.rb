@@ -12,7 +12,7 @@ def load_library(file_path)
 
     english_emoticon = emoticons[key][0]
     get_emoticon = english_emoticon
-    #binding.pry
+    binding.pry
     
   end
   new_hash
