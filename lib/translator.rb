@@ -8,10 +8,10 @@ def load_library(file_path)
     japanese_emoticon = emoticons[key][1]
     get_meaning = japanese_emoticon
 
-    #emoticons.each do |japanese_emoticon|
-      
-    get_emoticons = japanese_emoticon, emoticon[key][0]
-  binding.pry
+    emoticons.each do |japanese_emoticon|
+     binding.pry
+    #get_emoticons = japanese_emoticon, emoticon[key][0]
+ 
   end
 end
 
